@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@sapphire/decorators': ^6.0.0
   '@sapphire/eslint-config': ^4.3.8
   '@sapphire/framework': ^4.2.0
   '@sapphire/prettier-config': ^1.4.5
@@ -9,13 +10,16 @@ specifiers:
   discord.js: 14.x
   eslint: ^8.35.0
   prettier: ^2.8.4
+  tslib: ^2.5.0
   typescript: ^4.9.5
 
 dependencies:
   '@sapphire/framework': 4.2.0
   discord.js: 14.7.1
+  tslib: 2.5.0
 
 devDependencies:
+  '@sapphire/decorators': 6.0.0
   '@sapphire/eslint-config': 4.3.8
   '@sapphire/prettier-config': 1.4.5
   '@sapphire/ts-config': 3.3.4
@@ -129,6 +133,13 @@ packages:
     resolution: {integrity: sha512-JkLdIsP8fPAdh9ZZjrbHWR/+mZj0wvKS5ICibcLrRI1j84UmLMshx5n9QmL8b95d4onJ2xxiyugTgSAX7AalmA==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
+
+  /@sapphire/decorators/6.0.0:
+    resolution: {integrity: sha512-su+5K/ZT8PTxPLal9ZEq2Ik1J4ucEnY1ccBY1USW3NRj8iLFaEhPeUKpikRey3Wox2mpKeoxzZphrIWO5E8fng==}
+    engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
+    dependencies:
+      tslib: 2.5.0
+    dev: true
 
   /@sapphire/discord-utilities/3.0.0:
     resolution: {integrity: sha512-3zhfppJD69VwtYGzXkf/VJ852hmYb3Bd5KIk0r3C8WqKKJin5qWpzRwmcxuRveFKz9ZJpMeZkHYKkL1e0zDVbg==}
