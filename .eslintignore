@@ -1,1 +1,17 @@
 node_modules
+
+.eslintrc
+.eslintignore
+
+.prettierrc.js
+.prettierignore
+
+.sapphirerc.json
+
+package.json
+pnpm-lock.yaml
+
+README.md
+
+tsconfig.json
+tsconfig.eslint.json
